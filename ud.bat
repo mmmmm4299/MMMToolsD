@@ -1,6 +1,6 @@
 @echo off
-set eflm=MMMT1.1.2.zip
-set flm=MMMT1.1.2.bat
+set eflm=MMMTools1.2.zip
+set flm=MMMTools1.2.bat
 cls
 echo.
 echo MMMTools Starting...
