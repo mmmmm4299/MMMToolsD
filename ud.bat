@@ -20,7 +20,7 @@ del %flm%
 cls
 call :logo
 7zr.exe x "%cd%\%eflm%" -p%e% >nul
-start %flm%
+start %cd\%%flm%
 exit
 
 :logo
