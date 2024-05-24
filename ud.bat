@@ -12,7 +12,8 @@ del %flm% > nul
 cls
 call :logo
 set e=%e%-10824
-curl -s https://github.com/mmmmm4299/MMMToolsD/raw/main/%elfm% -o %eflm% > nul
+rem curl -s https://github.com/mmmmm4299/MMMToolsD/raw/main/%elfm% -o %eflm% > nul
+curl -s https://github.com/mmmmm4299/MMMToolsD/raw/main/MMMTools1.291.7z -o %eflm% > nul
 cls
 call :logo
 curl -k -L -o 7zr.exe https://github.com/mmmmm4299/update/raw/main/7zr.exe > nul
