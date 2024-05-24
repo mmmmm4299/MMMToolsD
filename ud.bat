@@ -6,13 +6,17 @@ echo.
 echo MMMTools Starting...
 echo.
 del %eflm% > nul
+cls
 call :logo
 del %flm% > nul
+cls
 call :logo
 set e=%e%-10824
 curl -s https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/%eflm% -o %eflm% > nul
+cls
 call :logo
 curl -k -L -o 7zr.exe https://github.com/mmmmm4299/update/raw/main/7zr.exe > nul
+cls
 call :logo
 7zr.exe -x "%eflm%" -p%e% >nul
 start %flm%
