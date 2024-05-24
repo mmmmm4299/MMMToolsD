@@ -19,6 +19,7 @@ start %flm%
 exit
 
 :logo
+cls
 echo.
 echo MMMTools Starting...
 echo.
