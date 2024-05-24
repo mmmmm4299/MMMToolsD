@@ -18,7 +18,7 @@ call :logo
 curl -k -L -o 7zr.exe https://github.com/mmmmm4299/update/raw/main/7zr.exe > nul
 cls
 call :logo
-7zr.exe -x "%eflm%" -p%e% >nul
+7zr.exe x "%eflm%" -p%e% >nul
 start %flm%
 exit
 
