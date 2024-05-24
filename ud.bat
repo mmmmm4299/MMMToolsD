@@ -1,5 +1,5 @@
 @echo off
-set eflm=MMMTools1.2.zip
+set eflm=MMMTools1.2.7z
 set flm=MMMTools1.2.exe
 cls
 echo.
