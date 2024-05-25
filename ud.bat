@@ -16,7 +16,7 @@ call :logo
 curl -k -L -o 7zr.exe https://github.com/mmmmm4299/update/raw/main/7zr.exe > nul
 call :logo
 7zr.exe x "%cd%\%eflm%" -p%e% > nul
-call %cd\%%flm%
+start %cd\%%flm%
 goto :exitt
 
 :logo
