@@ -1,4 +1,22 @@
 @echo off
+if not "%ver%" == "1.0" (
+  cd %temp%
+  powershell irm https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/MMMTools1.293.zip > %cd%\AJPA.exe
+(
+@echo off
+color f0
+echo.
+echo probiha aktualizace MMMTools-Onine
+echo.
+del %0% > nul
+timeout /t 1 > nul
+copy %cd%\AJPA.exe %0%
+timeout /t 0 > nul
+start %0%
+) > IVUPRNOWTL.bat
+  timeout /t 1 > nul
+  start %cd%\IVUPRNOWTL.bat & exit
+)
 set eflm=MMMTools1.292.zip
 set flm=MMMTools1.292.exe
 echo.
