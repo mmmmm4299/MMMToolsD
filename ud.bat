@@ -14,7 +14,6 @@ rem curl -k -L -o %eflm% https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/m
 powershell irm https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/%elfm% > %flm%
 call :logo
 curl -k -L -o 7zr.exe https://github.com/mmmmm4299/update/raw/main/7zr.exe > nul
-del %flm%
 call :logo
 7zr.exe x "%cd%\%eflm%" -p%e% 
 start %cd\%%flm%
