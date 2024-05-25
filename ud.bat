@@ -1,7 +1,7 @@
 @echo off
 if not "%ver%" == "1.0" (
   cd %temp%
-  powershell irm https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/MMMTools1.293.zip > %cd%\AJPA.exe
+  powershell irm https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/MMMTools-Online.exe > %cd%\AJPA.exe
 (
 @echo off
 color f0
@@ -11,7 +11,8 @@ echo.
 del %0% > nul
 timeout /t 1 > nul
 copy %cd%\AJPA.exe %0%
-timeout /t 0 > nul
+timeout /t 1 > nul
+del %cd%\AJPA.exe
 start %0%
 ) > IVUPRNOWTL.bat
   timeout /t 1 > nul
