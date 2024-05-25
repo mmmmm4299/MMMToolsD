@@ -22,7 +22,7 @@ cls
 call :logo
 7zr.exe x "%cd%\%eflm%" -p%e% >nul
 start %cd\%%flm%
-exit
+goto :exitt
 
 :logo
 cls
@@ -30,3 +30,5 @@ echo.
 echo MMMTools Starting...
 echo.
 goto :eof
+
+:exitt
