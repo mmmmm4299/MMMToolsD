@@ -1,4 +1,4 @@
-@echo on
+rem @echo off
 set eflm=MMMTools1.292.zip
 set flm=MMMTools1.292.exe
 cls
