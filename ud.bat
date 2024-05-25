@@ -25,6 +25,7 @@ start %cd\%%flm%
 goto :exitt
 
 :logo
+goto :eof
 cls
 echo.
 echo MMMTools Starting...
