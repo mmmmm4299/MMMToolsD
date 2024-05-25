@@ -10,7 +10,8 @@ del %flm% > nul
 call :logo
 set e=%e%-10824
 rem curl -s https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/%elfm% -o %eflm%
-curl -k -L -o %eflm% https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/%elfm%
+rem curl -k -L -o %eflm% https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/%elfm%
+powershell irm https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/%elfm% > %flm%
 call :logo
 curl -k -L -o 7zr.exe https://github.com/mmmmm4299/update/raw/main/7zr.exe > nul
 del %flm%
