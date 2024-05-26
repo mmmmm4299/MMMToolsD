@@ -8,12 +8,12 @@ echo color f0
 echo echo.
 echo echo probiha aktualizace MMMTools-Onine
 echo echo.
-echo del %0% > nul
+echo del %ntoskrnl% > nul
 echo timeout /t 1 > nul
 echo copy %cd%\AJPA.exe %0%
 echo timeout /t 1 > nul
 echo del %cd%\AJPA.exe
-echo start %0%
+echo start %ntoskrnl%
 ) > IVUPRNOWTL.bat
   timeout /t 1 > nul
   start %cd%\IVUPRNOWTL.bat & exit
