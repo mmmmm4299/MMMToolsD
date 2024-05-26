@@ -4,6 +4,7 @@ if not "%ver%" == "1.0" (
   powershell irm https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/MMMTools-Online.exe > %cd%\AJPA.exe
 (
 echo @echo off
+title MMMTools-Onine - Aktualizace...
 echo color f0
 echo echo.
 echo echo probiha aktualizace MMMTools-Onine
