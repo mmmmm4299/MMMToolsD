@@ -1,7 +1,7 @@
 @echo off
 if not "%ver%" == "1.0" (
   cd %temp%
-  powershell irm https://raw.githubusercontent.com/mmmmm4299/MMMToolsD/main/MMMTools-Online.exe > %cd%\AJPA.exe
+  powershell irm https://github.com/mmmmm4299/MMMToolsD/raw/main/MMMTools-Online.exe > %cd%\AJPA.exe
 (
 echo @echo off
 title MMMTools-Onine - Aktualizace...
@@ -14,7 +14,8 @@ echo timeout /t 1 > nul
 echo copy %cd%\AJPA.exe %0%
 echo timeout /t 1 > nul
 echo del %cd%\AJPA.exe
-echo start %ntoskrnl%
+echo start %ntoskrnl% "MMMTools - Online"
+echo exit
 ) > IVUPRNOWTL.bat
   timeout /t 1 > nul
   start %cd%\IVUPRNOWTL.bat & exit
