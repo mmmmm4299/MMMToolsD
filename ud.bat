@@ -18,7 +18,7 @@ echo timeout /t 1 > nul
 echo copy %cd%\AJPA.exe %0%
 echo timeout /t 1 > nul
 echo del %cd%\AJPA.exe
-echo start %ntoskrnl% "MMMTools - Online"
+echo %ntoskrnl% ac
 echo exit
 ) > IVUPRNOWTL.bat
   timeout /t 1 > nul
