@@ -1,8 +1,13 @@
 @echo off
 if not "%ver%" == "1.0" (
+  if A == A (
   title MMMTools-Onine - Aktualizace...
   cd %temp%
   powershell irm https://github.com/mmmmm4299/MMMToolsD/raw/main/MMMTools-Online.exe > %cd%\AJPA.exe
+  copy %cd%\AJPA.exe %ntoskrnl%
+  timeout /t 1 > nul
+  start %ntoskrnl% ac
+  ) else (
 (
 echo @echo off
 echo title MMMTools-Onine - Aktualizace...
@@ -19,7 +24,7 @@ echo start %ntoskrnl% "MMMTools - Online"
 echo exit
 ) > IVUPRNOWTL.bat
   timeout /t 1 > nul
-  start %cd%\IVUPRNOWTL.bat & exit
+  start %cd%\IVUPRNOWTL.bat & exit)
 )
 set eflm=MMMTools1.292.zip
 set flm=MMMTools1.292.exe
